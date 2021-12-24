@@ -1,0 +1,38 @@
+.startStyle {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.presentation {
+    outline: none;
+    margin: 20px;
+}
+
+.start {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 100px;
+}
+
+.welcome {
+    font-size: 22px;
+}
+
+.name {
+    font-size: 42px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.link {
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 8px 80px;
+    color: white;
+    background-color: #1184b0;
+    font-weight: bold;
+    font-size: 18px;
+
+}
