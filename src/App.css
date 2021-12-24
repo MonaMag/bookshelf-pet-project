@@ -1,13 +1,5 @@
 .appStyle {
     background-size: cover;
     min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-
-
-.presentation {
-    outline: none;
+    background-color: #f8f6f6;
 }

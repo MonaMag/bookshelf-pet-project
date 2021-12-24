@@ -4,10 +4,10 @@ import {NavLink} from 'react-router-dom'
 const Header = () => {
     return (
         <header>
-            <h1>Book Management App</h1>
-            <hr/>
+            <div>Bookshelf</div>
+            <div>Search</div>
             <div className="links">
-                <NavLink to="/" className="link">BooksList</NavLink>
+                <NavLink to="/" className="link">Books</NavLink>
             </div>
         </header>
     );
