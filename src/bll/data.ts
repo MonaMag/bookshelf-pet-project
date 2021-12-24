@@ -9,7 +9,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Things_Fall_Apart\n",
           "pages": 209,
           "title": "Things Fall Apart",
-          "year": 1958
+          "year": 1958,
+          "id": 1
       },
       {
           "author": "Hans Christian Andersen",
@@ -19,7 +20,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Fairy_Tales_Told_for_Children._First_Collection.\n",
           "pages": 784,
           "title": "Fairy tales",
-          "year": 1836
+          "year": 1836,
+          "id": 2
       },
       {
           "author": "Dante Alighieri",
@@ -29,7 +31,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Divine_Comedy\n",
           "pages": 928,
           "title": "The Divine Comedy",
-          "year": 1315
+          "year": 1315,
+          "id": 3
       },
       {
           "author": "Unknown",
@@ -39,7 +42,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Epic_of_Gilgamesh\n",
           "pages": 160,
           "title": "The Epic Of Gilgamesh",
-          "year": -1700
+          "year": -1700,
+          "id": 4
       },
       {
           "author": "Unknown",
@@ -49,7 +53,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Book_of_Job\n",
           "pages": 176,
           "title": "The Book Of Job",
-          "year": -600
+          "year": -600,
+          "id": 5
       },
       {
           "author": "Unknown",
@@ -59,7 +64,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/One_Thousand_and_One_Nights\n",
           "pages": 288,
           "title": "One Thousand and One Nights",
-          "year": 1200
+          "year": 1200,
+          "id": 6
       },
       {
           "author": "Unknown",
@@ -69,7 +75,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Nj%C3%A1ls_saga\n",
           "pages": 384,
           "title": "Nj\u00e1l's Saga",
-          "year": 1350
+          "year": 1350,
+          "id": 7
       },
       {
           "author": "Jane Austen",
@@ -79,7 +86,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Pride_and_Prejudice\n",
           "pages": 226,
           "title": "Pride and Prejudice",
-          "year": 1813
+          "year": 1813,
+          "id": 8
       },
       {
           "author": "Honor\u00e9 de Balzac",
@@ -89,7 +97,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Le_P%C3%A8re_Goriot\n",
           "pages": 443,
           "title": "Le P\u00e8re Goriot",
-          "year": 1835
+          "year": 1835,
+          "id": 9
       },
       {
           "author": "Samuel Beckett",
@@ -99,7 +108,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Molloy_(novel)\n",
           "pages": 256,
           "title": "Molloy, Malone Dies, The Unnamable, the trilogy",
-          "year": 1952
+          "year": 1952,
+          "id": 10
       },
       {
           "author": "Giovanni Boccaccio",
@@ -109,7 +119,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/The_Decameron\n",
           "pages": 1024,
           "title": "The Decameron",
-          "year": 1351
+          "year": 1351,
+          "id": 11
       },
       {
           "author": "Jorge Luis Borges",
@@ -119,7 +130,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Ficciones\n",
           "pages": 224,
           "title": "Ficciones",
-          "year": 1965
+          "year": 1965,
+          "id": 12
       },
       {
           "author": "Emily Bront\u00eb",
@@ -129,7 +141,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Wuthering_Heights\n",
           "pages": 342,
           "title": "Wuthering Heights",
-          "year": 1847
+          "year": 1847,
+          "id": 13
       },
       {
           "author": "Albert Camus",
@@ -139,7 +152,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/The_Stranger_(novel)\n",
           "pages": 185,
           "title": "The Stranger",
-          "year": 1942
+          "year": 1942,
+          "id": 14
       },
       {
           "author": "Paul Celan",
@@ -149,7 +163,8 @@ export type stateType = typeof initState
           "link": "\n",
           "pages": 320,
           "title": "Poems",
-          "year": 1952
+          "year": 1952,
+          "id": 15
       },
       {
           "author": "Louis-Ferdinand C\u00e9line",
@@ -159,7 +174,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Journey_to_the_End_of_the_Night\n",
           "pages": 505,
           "title": "Journey to the End of the Night",
-          "year": 1932
+          "year": 1932,
+          "id": 16
       },
       {
           "author": "Miguel de Cervantes",
@@ -169,7 +185,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Don_Quixote\n",
           "pages": 1056,
           "title": "Don Quijote De La Mancha",
-          "year": 1610
+          "year": 1610,
+          "id": 17
       },
       {
           "author": "Geoffrey Chaucer",
@@ -179,7 +196,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/The_Canterbury_Tales\n",
           "pages": 544,
           "title": "The Canterbury Tales",
-          "year": 1450
+          "year": 1450,
+          "id": 18
       },
       {
           "author": "Anton Chekhov",
@@ -189,7 +207,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/List_of_short_stories_by_Anton_Chekhov\n",
           "pages": 194,
           "title": "Stories",
-          "year": 1886
+          "year": 1886,
+          "id": 19
       },
       {
           "author": "Joseph Conrad",
@@ -199,7 +218,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Nostromo\n",
           "pages": 320,
           "title": "Nostromo",
-          "year": 1904
+          "year": 1904,
+          "id": 20
       },
       {
           "author": "Charles Dickens",
@@ -209,7 +229,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Great_Expectations\n",
           "pages": 194,
           "title": "Great Expectations",
-          "year": 1861
+          "year": 1861,
+          "id": 21
       },
       {
           "author": "Denis Diderot",
@@ -219,7 +240,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Jacques_the_Fatalist\n",
           "pages": 596,
           "title": "Jacques the Fatalist",
-          "year": 1796
+          "year": 1796,
+          "id": 22
       },
       {
           "author": "Alfred D\u00f6blin",
@@ -229,7 +251,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Berlin_Alexanderplatz\n",
           "pages": 600,
           "title": "Berlin Alexanderplatz",
-          "year": 1929
+          "year": 1929,
+          "id": 23
       },
       {
           "author": "Fyodor Dostoevsky",
@@ -239,7 +262,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Crime_and_Punishment\n",
           "pages": 551,
           "title": "Crime and Punishment",
-          "year": 1866
+          "year": 1866,
+          "id": 24
       },
       {
           "author": "Fyodor Dostoevsky",
@@ -249,7 +273,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/The_Idiot\n",
           "pages": 656,
           "title": "The Idiot",
-          "year": 1869
+          "year": 1869,
+          "id": 25
       },
       {
           "author": "Fyodor Dostoevsky",
@@ -259,7 +284,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Demons_(Dostoyevsky_novel)\n",
           "pages": 768,
           "title": "The Possessed",
-          "year": 1872
+          "year": 1872,
+          "id": 26
       },
       {
           "author": "Fyodor Dostoevsky",
@@ -269,7 +295,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/The_Brothers_Karamazov\n",
           "pages": 824,
           "title": "The Brothers Karamazov",
-          "year": 1880
+          "year": 1880,
+          "id": 27
       },
       {
           "author": "George Eliot",
@@ -279,7 +306,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Middlemarch\n",
           "pages": 800,
           "title": "Middlemarch",
-          "year": 1871
+          "year": 1871,
+          "id": 28
       },
       {
           "author": "Ralph Ellison",
@@ -289,7 +317,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Invisible_Man\n",
           "pages": 581,
           "title": "Invisible Man",
-          "year": 1952
+          "year": 1952,
+          "id": 29
       },
       {
           "author": "Euripides",
@@ -299,7 +328,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Medea_(play)\n",
           "pages": 104,
           "title": "Medea",
-          "year": -431
+          "year": -431,
+          "id": 30
       },
       {
           "author": "William Faulkner",
@@ -309,7 +339,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Absalom,_Absalom!\n",
           "pages": 313,
           "title": "Absalom, Absalom!",
-          "year": 1936
+          "year": 1936,
+          "id": 31
       },
       {
           "author": "William Faulkner",
@@ -319,7 +350,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/The_Sound_and_the_Fury\n",
           "pages": 326,
           "title": "The Sound and the Fury",
-          "year": 1929
+          "year": 1929,
+          "id": 32
       },
       {
           "author": "Gustave Flaubert",
@@ -329,7 +361,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Madame_Bovary\n",
           "pages": 528,
           "title": "Madame Bovary",
-          "year": 1857
+          "year": 1857,
+          "id": 33
       },
       {
           "author": "Gustave Flaubert",
@@ -339,7 +372,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Sentimental_Education\n",
           "pages": 606,
           "title": "Sentimental Education",
-          "year": 1869
+          "year": 1869,
+          "id": 34
       },
       {
           "author": "Federico Garc\u00eda Lorca",
@@ -349,7 +383,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Gypsy_Ballads\n",
           "pages": 218,
           "title": "Gypsy Ballads",
-          "year": 1928
+          "year": 1928,
+          "id": 35
       },
       {
           "author": "Gabriel Garc\u00eda M\u00e1rquez",
@@ -359,7 +394,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/One_Hundred_Years_of_Solitude\n",
           "pages": 417,
           "title": "One Hundred Years of Solitude",
-          "year": 1967
+          "year": 1967,
+          "id": 36
       },
       {
           "author": "Gabriel Garc\u00eda M\u00e1rquez",
@@ -369,7 +405,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Love_in_the_Time_of_Cholera\n",
           "pages": 368,
           "title": "Love in the Time of Cholera",
-          "year": 1985
+          "year": 1985,
+          "id": 37
       },
       {
           "author": "Johann Wolfgang von Goethe",
@@ -379,7 +416,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Goethe%27s_Faust\n",
           "pages": 158,
           "title": "Faust",
-          "year": 1832
+          "year": 1832,
+          "id": 38
       },
       {
           "author": "Nikolai Gogol",
@@ -389,7 +427,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Dead_Souls\n",
           "pages": 432,
           "title": "Dead Souls",
-          "year": 1842
+          "year": 1842,
+          "id": 39
       },
       {
           "author": "G\u00fcnter Grass",
@@ -399,7 +438,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/The_Tin_Drum\n",
           "pages": 600,
           "title": "The Tin Drum",
-          "year": 1959
+          "year": 1959,
+          "id": 40
       },
       {
           "author": "Jo\u00e3o Guimar\u00e3es Rosa",
@@ -409,7 +449,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/The_Devil_to_Pay_in_the_Backlands\n",
           "pages": 494,
           "title": "The Devil to Pay in the Backlands",
-          "year": 1956
+          "year": 1956,
+          "id": 41
       },
       {
           "author": "Knut Hamsun",
@@ -419,7 +460,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Hunger_(Hamsun_novel)\n",
           "pages": 176,
           "title": "Hunger",
-          "year": 1890
+          "year": 1890,
+          "id": 42
       },
       {
           "author": "Ernest Hemingway",
@@ -429,7 +471,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/The_Old_Man_and_the_Sea\n",
           "pages": 128,
           "title": "The Old Man and the Sea",
-          "year": 1952
+          "year": 1952,
+          "id": 43
       },
       {
           "author": "Homer",
@@ -439,7 +482,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Iliad\n",
           "pages": 608,
           "title": "Iliad",
-          "year": -735
+          "year": -735,
+          "id": 44
       },
       {
           "author": "Homer",
@@ -449,7 +493,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Odyssey\n",
           "pages": 374,
           "title": "Odyssey",
-          "year": -800
+          "year": -800,
+          "id": 45
       },
       {
           "author": "Henrik Ibsen",
@@ -459,7 +504,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/A_Doll%27s_House\n",
           "pages": 68,
           "title": "A Doll's House",
-          "year": 1879
+          "year": 1879,
+          "id": 46
       },
       {
           "author": "James Joyce",
@@ -469,7 +515,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Ulysses_(novel)\n",
           "pages": 228,
           "title": "Ulysses",
-          "year": 1922
+          "year": 1922,
+          "id": 47
       },
       {
           "author": "Franz Kafka",
@@ -479,7 +526,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Franz_Kafka_bibliography#Short_stories\n",
           "pages": 488,
           "title": "Stories",
-          "year": 1924
+          "year": 1924,
+          "id": 48
       },
       {
           "author": "Franz Kafka",
@@ -489,7 +537,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/The_Trial\n",
           "pages": 160,
           "title": "The Trial",
-          "year": 1925
+          "year": 1925,
+          "id": 49
       },
       {
           "author": "Franz Kafka",
@@ -499,7 +548,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/The_Castle_(novel)\n",
           "pages": 352,
           "title": "The Castle",
-          "year": 1926
+          "year": 1926,
+          "id": 50
       },
       {
           "author": "K\u0101lid\u0101sa",
@@ -509,7 +559,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Abhij%C3%B1%C4%81na%C5%9B%C4%81kuntalam\n",
           "pages": 147,
           "title": "The recognition of Shakuntala",
-          "year": 150
+          "year": 150,
+          "id": 51
       },
       {
           "author": "Yasunari Kawabata",
@@ -519,7 +570,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/The_Sound_of_the_Mountain\n",
           "pages": 288,
           "title": "The Sound of the Mountain",
-          "year": 1954
+          "year": 1954,
+          "id": 52
       },
       {
           "author": "Nikos Kazantzakis",
@@ -529,7 +581,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Zorba_the_Greek\n",
           "pages": 368,
           "title": "Zorba the Greek",
-          "year": 1946
+          "year": 1946,
+          "id": 53
       },
       {
           "author": "D. H. Lawrence",
@@ -539,7 +592,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Sons_and_Lovers\n",
           "pages": 432,
           "title": "Sons and Lovers",
-          "year": 1913
+          "year": 1913,
+          "id": 54
       },
       {
           "author": "Halld\u00f3r Laxness",
@@ -549,7 +603,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Independent_People\n",
           "pages": 470,
           "title": "Independent People",
-          "year": 1934
+          "year": 1934,
+          "id": 55
       },
       {
           "author": "Giacomo Leopardi",
@@ -559,7 +614,8 @@ export type stateType = typeof initState
           "link": "\n",
           "pages": 184,
           "title": "Poems",
-          "year": 1818
+          "year": 1818,
+          "id": 56
       },
       {
           "author": "Doris Lessing",
@@ -569,7 +625,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/The_Golden_Notebook\n",
           "pages": 688,
           "title": "The Golden Notebook",
-          "year": 1962
+          "year": 1962,
+          "id": 57
       },
       {
           "author": "Astrid Lindgren",
@@ -579,7 +636,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Pippi_Longstocking\n",
           "pages": 160,
           "title": "Pippi Longstocking",
-          "year": 1945
+          "year": 1945,
+          "id": 58
       },
       {
           "author": "Lu Xun",
@@ -589,7 +647,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/A_Madman%27s_Diary\n",
           "pages": 389,
           "title": "Diary of a Madman",
-          "year": 1918
+          "year": 1918,
+          "id": 59
       },
       {
           "author": "Naguib Mahfouz",
@@ -599,7 +658,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Children_of_Gebelawi\n",
           "pages": 355,
           "title": "Children of Gebelawi",
-          "year": 1959
+          "year": 1959,
+          "id": 60
       },
       {
           "author": "Thomas Mann",
@@ -609,7 +669,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Buddenbrooks\n",
           "pages": 736,
           "title": "Buddenbrooks",
-          "year": 1901
+          "year": 1901,
+          "id": 61
       },
       {
           "author": "Thomas Mann",
@@ -619,7 +680,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/The_Magic_Mountain\n",
           "pages": 720,
           "title": "The Magic Mountain",
-          "year": 1924
+          "year": 1924,
+          "id": 62
       },
       {
           "author": "Herman Melville",
@@ -629,7 +691,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Moby-Dick\n",
           "pages": 378,
           "title": "Moby Dick",
-          "year": 1851
+          "year": 1851,
+          "id": 63
       },
       {
           "author": "Michel de Montaigne",
@@ -639,7 +702,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Essays_(Montaigne)\n",
           "pages": 404,
           "title": "Essays",
-          "year": 1595
+          "year": 1595,
+          "id": 64
       },
       {
           "author": "Elsa Morante",
@@ -649,7 +713,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/History_(novel)\n",
           "pages": 600,
           "title": "History",
-          "year": 1974
+          "year": 1974,
+          "id": 65
       },
       {
           "author": "Toni Morrison",
@@ -659,7 +724,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Beloved_(novel)\n",
           "pages": 321,
           "title": "Beloved",
-          "year": 1987
+          "year": 1987,
+          "id": 66
       },
       {
           "author": "Murasaki Shikibu",
@@ -669,7 +735,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/The_Tale_of_Genji\n",
           "pages": 1360,
           "title": "The Tale of Genji",
-          "year": 1006
+          "year": 1006,
+          "id": 67
       },
       {
           "author": "Robert Musil",
@@ -679,7 +746,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/The_Man_Without_Qualities\n",
           "pages": 365,
           "title": "The Man Without Qualities",
-          "year": 1931
+          "year": 1931,
+          "id": 68
       },
       {
           "author": "Vladimir Nabokov",
@@ -689,7 +757,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Lolita\n",
           "pages": 317,
           "title": "Lolita",
-          "year": 1955
+          "year": 1955,
+          "id": 69
       },
       {
           "author": "George Orwell",
@@ -699,7 +768,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four\n",
           "pages": 272,
           "title": "Nineteen Eighty-Four",
-          "year": 1949
+          "year": 1949,
+          "id": 70
       },
       {
           "author": "Ovid",
@@ -709,7 +779,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Metamorphoses\n",
           "pages": 576,
           "title": "Metamorphoses",
-          "year": 100
+          "year": 100,
+          "id": 71
       },
       {
           "author": "Fernando Pessoa",
@@ -719,7 +790,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/The_Book_of_Disquiet\n",
           "pages": 272,
           "title": "The Book of Disquiet",
-          "year": 1928
+          "year": 1928,
+          "id": 72
       },
       {
           "author": "Edgar Allan Poe",
@@ -729,7 +801,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Edgar_Allan_Poe_bibliography#Tales\n",
           "pages": 842,
           "title": "Tales",
-          "year": 1950
+          "year": 1950,
+          "id": 73
       },
       {
           "author": "Marcel Proust",
@@ -739,7 +812,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/In_Search_of_Lost_Time\n",
           "pages": 2408,
           "title": "In Search of Lost Time",
-          "year": 1920
+          "year": 1920,
+          "id": 74
       },
       {
           "author": "Fran\u00e7ois Rabelais",
@@ -749,7 +823,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Gargantua_and_Pantagruel\n",
           "pages": 623,
           "title": "Gargantua and Pantagruel",
-          "year": 1533
+          "year": 1533,
+          "id": 75
       },
       {
           "author": "Juan Rulfo",
@@ -759,7 +834,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Pedro_P%C3%A1ramo\n",
           "pages": 124,
           "title": "Pedro P\u00e1ramo",
-          "year": 1955
+          "year": 1955,
+          "id": 76
       },
       {
           "author": "Rumi",
@@ -769,7 +845,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Masnavi\n",
           "pages": 438,
           "title": "The Masnavi",
-          "year": 1236
+          "year": 1236,
+          "id": 77
       },
       {
           "author": "Salman Rushdie",
@@ -779,7 +856,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Midnight%27s_Children\n",
           "pages": 536,
           "title": "Midnight's Children",
-          "year": 1981
+          "year": 1981,
+          "id": 78
       },
       {
           "author": "Saadi",
@@ -789,7 +867,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Bustan_(book)\n",
           "pages": 298,
           "title": "Bostan",
-          "year": 1257
+          "year": 1257,
+          "id": 79
       },
       {
           "author": "Tayeb Salih",
@@ -799,7 +878,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Season_of_Migration_to_the_North\n",
           "pages": 139,
           "title": "Season of Migration to the North",
-          "year": 1966
+          "year": 1966,
+          "id": 80
       },
       {
           "author": "Jos\u00e9 Saramago",
@@ -809,7 +889,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Blindness_(novel)\n",
           "pages": 352,
           "title": "Blindness",
-          "year": 1995
+          "year": 1995,
+          "id": 81
       },
       {
           "author": "William Shakespeare",
@@ -819,7 +900,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Hamlet\n",
           "pages": 432,
           "title": "Hamlet",
-          "year": 1603
+          "year": 1603,
+          "id": 82
       },
       {
           "author": "William Shakespeare",
@@ -829,7 +911,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/King_Lear\n",
           "pages": 384,
           "title": "King Lear",
-          "year": 1608
+          "year": 1608,
+          "id": 83
       },
       {
           "author": "William Shakespeare",
@@ -839,7 +922,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Othello\n",
           "pages": 314,
           "title": "Othello",
-          "year": 1609
+          "year": 1609,
+          "id": 84
       },
       {
           "author": "Sophocles",
@@ -849,7 +933,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Oedipus_the_King\n",
           "pages": 88,
           "title": "Oedipus the King",
-          "year": -430
+          "year": -430,
+          "id": 85
       },
       {
           "author": "Stendhal",
@@ -859,7 +944,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/The_Red_and_the_Black\n",
           "pages": 576,
           "title": "The Red and the Black",
-          "year": 1830
+          "year": 1830,
+          "id": 86
       },
       {
           "author": "Laurence Sterne",
@@ -869,7 +955,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/The_Life_and_Opinions_of_Tristram_Shandy,_Gentleman\n",
           "pages": 640,
           "title": "The Life And Opinions of Tristram Shandy",
-          "year": 1760
+          "year": 1760,
+          "id": 87
       },
       {
           "author": "Italo Svevo",
@@ -879,7 +966,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Zeno%27s_Conscience\n",
           "pages": 412,
           "title": "Confessions of Zeno",
-          "year": 1923
+          "year": 1923,
+          "id": 88
       },
       {
           "author": "Jonathan Swift",
@@ -889,7 +977,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Gulliver%27s_Travels\n",
           "pages": 178,
           "title": "Gulliver's Travels",
-          "year": 1726
+          "year": 1726,
+          "id": 89
       },
       {
           "author": "Leo Tolstoy",
@@ -899,7 +988,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/War_and_Peace\n",
           "pages": 1296,
           "title": "War and Peace",
-          "year": 1867
+          "year": 1867,
+          "id": 90
       },
       {
           "author": "Leo Tolstoy",
@@ -909,7 +999,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Anna_Karenina\n",
           "pages": 864,
           "title": "Anna Karenina",
-          "year": 1877
+          "year": 1877,
+          "id": 91
       },
       {
           "author": "Leo Tolstoy",
@@ -919,7 +1010,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/The_Death_of_Ivan_Ilyich\n",
           "pages": 92,
           "title": "The Death of Ivan Ilyich",
-          "year": 1886
+          "year": 1886,
+          "id": 92
       },
       {
           "author": "Mark Twain",
@@ -929,7 +1021,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Adventures_of_Huckleberry_Finn\n",
           "pages": 224,
           "title": "The Adventures of Huckleberry Finn",
-          "year": 1884
+          "year": 1884,
+          "id": 93
       },
       {
           "author": "Valmiki",
@@ -939,7 +1032,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Ramayana\n",
           "pages": 152,
           "title": "Ramayana",
-          "year": -450
+          "year": -450,
+          "id": 94
       },
       {
           "author": "Virgil",
@@ -949,7 +1043,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Aeneid\n",
           "pages": 442,
           "title": "The Aeneid",
-          "year": -23
+          "year": -23,
+          "id": 95
       },
       {
           "author": "Vyasa",
@@ -959,7 +1054,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Mahabharata\n",
           "pages": 276,
           "title": "Mahabharata",
-          "year": -700
+          "year": -700,
+          "id": 96
       },
       {
           "author": "Walt Whitman",
@@ -969,7 +1065,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Leaves_of_Grass\n",
           "pages": 152,
           "title": "Leaves of Grass",
-          "year": 1855
+          "year": 1855,
+          "id": 97
       },
       {
           "author": "Virginia Woolf",
@@ -979,7 +1076,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Mrs_Dalloway\n",
           "pages": 216,
           "title": "Mrs Dalloway",
-          "year": 1925
+          "year": 1925,
+          "id": 98
       },
       {
           "author": "Virginia Woolf",
@@ -989,7 +1087,8 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/To_the_Lighthouse\n",
           "pages": 209,
           "title": "To the Lighthouse",
-          "year": 1927
+          "year": 1927,
+          "id": 99
       },
       {
           "author": "Marguerite Yourcenar",
@@ -999,6 +1098,7 @@ export type stateType = typeof initState
           "link": "https://en.wikipedia.org/wiki/Memoirs_of_Hadrian\n",
           "pages": 408,
           "title": "Memoirs of Hadrian",
-          "year": 1951
+          "year": 1951,
+          "id": 100
       }
   ]

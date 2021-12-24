@@ -1,10 +1,9 @@
 import React from 'react';
 import { Route, Routes} from "react-router-dom";
 import './App.css';
-import AppContent from "./components/AppContent";
-import {BooksList} from "./components/BooksList";
-import {Book} from "./components/Book";
-import {StartPage} from "./components/StartPage";
+import AppContent from "./components/appContent/AppContent";
+import {BooksList} from "./components/appContent/bookContainer/booklist/BooksList";
+import {StartPage} from "./components/startPage/StartPage";
 
 
 const App = () => {
@@ -14,7 +13,6 @@ const App = () => {
                 <Route path="/content" element={<AppContent/>}/>
                 <Route path="/home" element={<App/>}/>
                 <Route path="/bookslist" element={<BooksList/>}/>
-                <Route path="/book" element={<Book/>}/>
             </Routes>
     );
 };

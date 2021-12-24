@@ -1,7 +1,7 @@
 import {initState, stateType} from "./data";
 
 
-type BookType = {
+export type BookType = {
     author: string
     country: string
     imageLink: string
@@ -10,6 +10,7 @@ type BookType = {
     pages: number
     title: string
     year: number
+    id: number
 }
 
 export  const booksReducer = (state: stateType = initState, action: ActionsType) => {

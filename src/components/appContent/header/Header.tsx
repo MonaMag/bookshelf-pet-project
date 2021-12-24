@@ -5,10 +5,10 @@ import s from './Header.module.css'
 const Header = () => {
     return (
         <header className={s.header}>
-            <div>Bookshelf</div>
+            <div>My bookshelf</div>
             <div>Search</div>
-            <div className="links">
-                <NavLink to="/" className="link">Back</NavLink>
+            <div className={s.links}>
+                <NavLink to="/" className={s.link}>Back</NavLink>
             </div>
         </header>
     );
