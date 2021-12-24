@@ -1,17 +1,5 @@
-import {initState, stateType} from "./data";
+import {BookType, initState, stateType} from "./data";
 
-
-export type BookType = {
-    author: string
-    country: string
-    imageLink: string
-    language: string
-    link: string
-    pages: number
-    title: string
-    year: number
-    id: number
-}
 
 export  const booksReducer = (state: stateType = initState, action: ActionsType) => {
     switch (action.type) {
@@ -19,6 +7,12 @@ export  const booksReducer = (state: stateType = initState, action: ActionsType)
             return action.payload;
         case 'SEARCH_BOOK':
             return action.payload
+        case 'SET_PAGE_COUNT' : {
+            return {...state, pageCount: action.payload}
+        }
+        case 'SET_CURRENT_PAGE' : {
+            return {...state, page: action.payload}
+        }
         default:
             return state;
     }
@@ -28,6 +22,9 @@ export  const booksReducer = (state: stateType = initState, action: ActionsType)
 
 //* Action Creators --------------------------------------------------------->
 type ActionsType = ReturnType<typeof searchBookAC> |  ReturnType<typeof selectBookAC>
+    | ReturnType<typeof setCurrentPageAC> | ReturnType<typeof setPageCountAC >
 
 export const searchBookAC = (book: BookType) => ({type: 'SEARCH_BOOK', payload: book} as const)
 export const selectBookAC = (book: BookType) => ({type: 'CURRENT_BOOK', payload: book} as const)
+export const setCurrentPageAC = (page: number) => ({type: 'SET_CURRENT_PAGE', payload: page} as const)
+export const setPageCountAC = (pageCount: number) =>({type: 'SET_PAGE_COUNT', payload: pageCount} as const)

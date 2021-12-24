@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Routes} from "react-router-dom";
 import './App.css';
 import AppContent from "./components/appContent/AppContent";
-import {BooksList} from "./components/appContent/bookContainer/booklist/BooksList";
+import {BooksList} from "./components/appContent/main/BooksList";
 import {StartPage} from "./components/startPage/StartPage";
 
 
