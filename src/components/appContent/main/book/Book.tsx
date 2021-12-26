@@ -8,17 +8,12 @@ type BookPropsType = {
 
 export const Book =(props: BookPropsType) => {
 
-
+    console.log(props.book.imageLink)
     return (
         <div className={s.bookWrap}>
+            <img src={props.book.imageLink}/>
            <h3>{props.book.title}</h3>
-            <h4>{props.book.author}</h4>
-            <img src={props.book.imageLink} alt="cover"/>
-        </div>
-    )
+            <span>{props.book.author}</span>
 
+        </div>)
 }
-
-
-
-
