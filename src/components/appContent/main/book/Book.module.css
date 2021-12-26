@@ -1,19 +1,25 @@
 .bookWrap {
-    height: 400px;
-    width: 300px;
+    height: 450px;
+    width: 350px;
     margin-top: 20px;
-    border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    box-shadow: 0 1px 3px rgb(142, 125, 103);
 }
 
 .bookWrap img {
-    height: 300px;
+    height: 400px;
     width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgb(109, 101, 91, 0.6);
 }
+
+/*.bookWrap img:hover {
+    height: 450px;
+    width: 350px;
+    box-shadow: 0 3px 7px rgba(71, 66, 66, 0.8);
+}*/
 
 h3 {
     height: 40px;
@@ -26,4 +32,19 @@ span {
     height: 20px;
     width: 300px;
     text-align: center;
+}
+
+.btn {
+    border: none;
+    margin-top: 5px;
+    color: #1f89b3;
+    background-color: white;
+}
+
+.btn:hover {
+    margin-top: 10px;
+    color: #135c79;
+    font-size: 16px;
+    background-color: white;
+    cursor: pointer;
 }

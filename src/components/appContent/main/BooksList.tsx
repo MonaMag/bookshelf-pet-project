@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {Book} from "./book/Book";
 import {useDispatch, useSelector} from "react-redux";
 import {AppStateType} from "../../../bll/store";
@@ -6,26 +6,24 @@ import s from './BooksList.module.css'
 import {BookType} from "../../../bll/data";
 
 
-
-
 export type BooksListPropsType = {
     booksCount?: number
-
 }
 
 export const BooksList = (props: BooksListPropsType) => {
 
     const dispatch = useDispatch()
     const books = useSelector<AppStateType, Array<BookType>>(state => state.books)
+    const isFetching = useSelector<AppStateType, boolean>(state => state.app.isFetching)
 
 
-  /*  const booksTotalCount = books.length
-    const pageCount = 5
+    /*  const booksTotalCount = books.length
+      const pageCount = 5
 
-    const onChangeCurrentPage = (page: number) => {
-        dispatch(setCurrentPageAC(page))
-    }
-*/
+      const onChangeCurrentPage = (page: number) => {
+          dispatch(setCurrentPageAC(page))
+      }
+  */
     return (
         <div className={s.container}>
             <div className={s.booksContainer}>
@@ -34,6 +32,7 @@ export const BooksList = (props: BooksListPropsType) => {
                         <Book book={el}/>
                     </div>
                 )}
+
             </div>
             {/*<div className={s.paginator}>
                 <Paginator totalItemsCount={booksTotalCount}
