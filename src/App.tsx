@@ -7,6 +7,7 @@ import {StartPage} from "./components/startPage/StartPage";
 
 
 const App = () => {
+    console.log("APP")
     return (
             <Routes>
                 <Route path="/" element={<StartPage/>}/>

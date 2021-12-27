@@ -6,7 +6,7 @@ import {BooksList} from "./main/BooksList";
 
 
 const AppContent = () => {
-
+    console.log("AppContent")
     return (
         <div className={s.appContent}>
             <header className={s.header}><Header/></header>

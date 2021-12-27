@@ -16,8 +16,7 @@ export const Book =(props: BookPropsType) => {
         setShowModal(true)
     }
 
-
-    console.log(props.book.imageLink)
+    console.log("Book")
     return (
         <div className={s.bookWrap}>
             {showModal && <BookDetailModal

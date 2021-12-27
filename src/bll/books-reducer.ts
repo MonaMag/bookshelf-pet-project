@@ -5,8 +5,11 @@ export  const booksReducer = (state: stateType = initState, action: ActionsType)
     switch (action.type) {
         case 'CURRENT_BOOK':
             return action.payload;
-        case 'SEARCH_BOOK':
-            return action.payload
+        case 'SEARCH_BOOK': {
+            const a = [...state.filter(el => el.author === action.payload)]
+            debugger
+            return a
+        }
         case 'SET_PAGE_COUNT' : {
             return {...state, pageCount: action.payload}
         }
@@ -24,7 +27,7 @@ export  const booksReducer = (state: stateType = initState, action: ActionsType)
 type ActionsType = ReturnType<typeof searchBookAC> |  ReturnType<typeof selectBookAC>
     | ReturnType<typeof setCurrentPageAC> | ReturnType<typeof setPageCountAC >
 
-export const searchBookAC = (book: BookType) => ({type: 'SEARCH_BOOK', payload: book} as const)
+export const searchBookAC = (bookAuthor: string) => ({type: 'SEARCH_BOOK', payload: bookAuthor} as const)
 export const selectBookAC = (book: BookType) => ({type: 'CURRENT_BOOK', payload: book} as const)
 export const setCurrentPageAC = (page: number) => ({type: 'SET_CURRENT_PAGE', payload: page} as const)
 export const setPageCountAC = (pageCount: number) =>({type: 'SET_PAGE_COUNT', payload: pageCount} as const)

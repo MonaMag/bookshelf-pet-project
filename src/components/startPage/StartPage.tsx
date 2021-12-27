@@ -5,7 +5,7 @@ import {NavLink} from "react-router-dom";
 
 export const StartPage = () => {
 
-
+    console.log("StartPage")
     return (
         <div className={s.startStyle}>
             <div>
