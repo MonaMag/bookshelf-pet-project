@@ -6,21 +6,16 @@ import s from './BooksList.module.css'
 import {BookType} from "../../../bll/data";
 
 
-
-export type BooksListPropsType = {
-    booksCount?: number
-}
-
-export const BooksList = (props: BooksListPropsType) => {
+export const BooksList = () => {
     console.log("BooksList")
-
+    //const dispatch = useDispatch()
     const books = useSelector<AppStateType, Array<BookType>>(state => state.books)
+
     console.log('books', books)
-    /*  const booksTotalCount = books.length
-      const pageCount = 5
-      const onChangeCurrentPage = (page: number) => {
-          dispatch(setCurrentPageAC(page))
-      }
+
+    /*  useEffect(() => {
+          dispatch(setBooksAC)
+      }, [dispatch])
   */
     return (
         <div className={s.container}>
@@ -31,13 +26,6 @@ export const BooksList = (props: BooksListPropsType) => {
                     </div>
                 )}
             </div>
-            {/*<div className={s.paginator}>
-                <Paginator totalItemsCount={booksTotalCount}
-                           pageSize={pageCount}
-                           currentPage={currentPage}
-                           onChangeCurrentPage={onChangeCurrentPage}
-                />
-            </div>*/}
         </div>
     )
 }

@@ -15,11 +15,12 @@
     box-shadow: 0 2px 5px rgb(109, 101, 91, 0.6);
 }
 
-/*.bookWrap img:hover {
-    height: 450px;
-    width: 350px;
+.bookWrap img:hover {
+    height: 430px;
+    width: 330px;
     box-shadow: 0 3px 7px rgba(71, 66, 66, 0.8);
-}*/
+    cursor: pointer;
+}
 
 h3 {
     height: 40px;
