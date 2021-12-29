@@ -48,7 +48,7 @@ const Header = () => {
                         type="submit">&#8594;</button>
             </form>
             <div className={s.links}>
-                <NavLink to="/" className={s.link}>Back</NavLink>
+                <NavLink to="/" className={s.link}>Home</NavLink>
             </div>
         </div>
     );

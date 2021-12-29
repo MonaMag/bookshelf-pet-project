@@ -17,6 +17,7 @@ export const StartPage = () => {
                 <p className={s.welcome}>Welcome to</p>
                 <h1 className={s.name}>Bookshelf</h1>
                 <NavLink to="/content" className={s.link}>Start</NavLink>
+
             </div>
         </div>
     )
