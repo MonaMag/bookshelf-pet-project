@@ -1,8 +1,9 @@
 import React, {ChangeEvent, MouseEvent, KeyboardEvent, useState} from 'react'
 import {NavLink} from 'react-router-dom'
 import s from './Header.module.css'
-import {searchBookAC} from "../../../bll/books-reducer";
+import {searchBookAC, setBooksAC} from "../../../bll/books-reducer";
 import {useDispatch} from "react-redux";
+import {initState} from "../../../bll/data";
 
 
 const Header = () => {
@@ -31,6 +32,9 @@ const Header = () => {
 
     return (
         <header className={s.header}>
+            <div>
+                <div className={s.backBooks} onClick={() => dispatch(setBooksAC(initState))}>All books</div>
+            </div>
             <div>My bookshelf</div>
             <form className={s.searchForm}>
                 <input type="text"

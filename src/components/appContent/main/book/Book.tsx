@@ -24,7 +24,7 @@ export const Book =(props: BookPropsType) => {
                 setShowModal={setShowModal}
                 book={props.book}
             />}
-            <img onClick={openModalWindow} src={props.book.imageLink} alt={'cover'}/>
+            <img className={s.imgCover} onClick={openModalWindow} src={props.book.imageLink} alt={'cover'}/>
            {/* <button className={s.btn} onClick={openModalWindow}>more info... </button>*/}
            {/*<h3>{props.book.title}</h3>
             <span>{props.book.author}</span>*/}

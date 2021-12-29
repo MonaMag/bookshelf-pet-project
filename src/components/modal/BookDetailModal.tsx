@@ -1,6 +1,5 @@
 import React, {MouseEvent} from "react";
 import s from "./Modal.module.css";
-import {useDispatch} from "react-redux";
 import {BookType} from "../../bll/data";
 
 
@@ -11,7 +10,6 @@ type OpenModalType = {
 }
 
 export const BookDetailModal = (props: OpenModalType) => {
-    const dispatch = useDispatch();
     const activeModalHandler = () => {
         props.setShowModal(false)
     }
@@ -24,7 +22,7 @@ export const BookDetailModal = (props: OpenModalType) => {
             <div className={s.modalContent} onClick={stopActiveModal}>
 
                 <div className={s.bookWrap}>
-                    <img src={props.book.imageLink}/>
+                    <img className={s.img} src={props.book.imageLink} alt={'book'}/>
                     <h3>{props.book.title}</h3>
                     <span>Author: <i>{props.book.author}</i></span>
                     <p><i>Year: {props.book.year}</i></p>

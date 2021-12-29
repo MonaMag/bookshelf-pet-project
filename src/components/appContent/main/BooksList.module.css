@@ -7,12 +7,9 @@
     grid-gap: 20px;
 }
 
-img {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
+.backBooks {
+    border: 1px solid;
 }
-
 /*
 .container {
     border: 1px solid;

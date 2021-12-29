@@ -18,6 +18,7 @@
     text-decoration: none;
     color: white;
 }
+
 .link:hover {
     color: #f5933f;
 }
@@ -25,10 +26,10 @@
 .searchForm {
     width: 350px;
     display: flex;
-    border: 1px solid #dedede;
     height: 22px;
 
 }
+
 form.searchForm input {
     outline: none;
     padding: 5px;
@@ -37,10 +38,11 @@ form.searchForm input {
     background: #fdfdfc;
     border: none;
 }
-form.searchForm input:focus {
 
-    border: 1px solid  #f3923e;
+form.searchForm input:focus {
+    border: 1px solid #f3923e;
 }
+
 form.searchForm button {
     border: none;
     outline: none;
@@ -51,9 +53,11 @@ form.searchForm button {
     font-size: 17px;
     cursor: pointer;
 }
+
 form.searchForm button:hover {
     background: #d26305;
 }
+
 form.searchForm::after {
     content: "";
     clear: both;
@@ -62,4 +66,6 @@ form.searchForm::after {
 
 
 
-
+.backBooks {
+    cursor: pointer;
+}
