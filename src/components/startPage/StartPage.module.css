@@ -19,12 +19,12 @@
 }
 
 .welcome {
-    font-size: 22px;
+    font-size: 32px;
     margin: 0;
 }
 
 .name {
-    font-size: 42px;
+    font-size: 64px;
     margin-bottom: 20px;
     margin-top: 0;
 }
@@ -32,7 +32,7 @@
 .link {
     text-decoration: none;
     border-radius: 4px;
-    padding: 8px 80px;
+    padding: 8px 125px;
     color: white;
     background-color: #1184b0;
     font-weight: bold;

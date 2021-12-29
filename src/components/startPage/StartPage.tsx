@@ -9,11 +9,6 @@ export const StartPage = () => {
     return (
         <div className={s.startStyle}>
             <div>
-                <p style={{fontSize: '10px'}}>Look for your book</p>
-                <p style={{fontSize: '14px'}}>Add to your shelf</p>
-                <p style={{fontSize: '18px'}}> Read with love</p>
-            </div>
-            <div>
                 <img
                     src="https://storage.googleapis.com/vst-chameleon-prod/multipart-1590182594-56034554973989-2"
                     alt="presentation" className={s.presentation}/>

@@ -11,6 +11,15 @@
 .header {
 }
 
+.topBlock {
+    height: 400px;
+    background-image: url("https://illlustrations.co/static/881ed3ff57417ae887991634b2647267/ee604/day26-rainbow.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
 .main {
     min-height: 95vh;
     overflow: auto;

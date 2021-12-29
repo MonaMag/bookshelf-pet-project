@@ -31,7 +31,7 @@ const Header = () => {
     console.log("Header")
 
     return (
-        <header className={s.header}>
+        <div className={s.header}>
             <div>
                 <div className={s.backBooks} onClick={() => dispatch(setBooksAC(initState))}>All books</div>
             </div>
@@ -50,7 +50,7 @@ const Header = () => {
             <div className={s.links}>
                 <NavLink to="/" className={s.link}>Back</NavLink>
             </div>
-        </header>
+        </div>
     );
 };
 

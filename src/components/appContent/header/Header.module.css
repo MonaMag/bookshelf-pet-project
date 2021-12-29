@@ -27,7 +27,6 @@
     width: 350px;
     display: flex;
     height: 22px;
-
 }
 
 form.searchForm input {
@@ -65,7 +64,10 @@ form.searchForm::after {
 }
 
 
-
 .backBooks {
     cursor: pointer;
+}
+
+.backBooks:hover {
+    color: #f39648;
 }
