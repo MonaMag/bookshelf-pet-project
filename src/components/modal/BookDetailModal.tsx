@@ -21,9 +21,9 @@ export const BookDetailModal = (props: OpenModalType) => {
         <div className={s.modalContainer} onClick={activeModalHandler}>
             <div className={s.modalContent} onClick={stopActiveModal}>
 
-                <div className={s.bookWrap}>
+                <div className={s.bookWrapper}>
                     <img className={s.img} src={props.book.imageLink} alt={'book'}/>
-                    <h3>{props.book.title}</h3>
+                    <h3 className={s.title}>{props.book.title}</h3>
                     <span>Author: <i>{props.book.author}</i></span>
                     <p><i>Year: {props.book.year}</i></p>
                     <span>Pages: <i>{props.book.pages}</i></span>

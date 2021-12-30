@@ -8,7 +8,7 @@ type BookPropsType = {
     book: BookType
 }
 
-export const Book =(props: BookPropsType) => {
+export const Book = (props: BookPropsType) => {
 
     const [showModal, setShowModal] = useState(false)
 
@@ -18,16 +18,15 @@ export const Book =(props: BookPropsType) => {
 
     console.log("Book")
     return (
-        <div className={s.bookWrap}>
-            {showModal && <BookDetailModal
-                showModal={showModal}
-                setShowModal={setShowModal}
-                book={props.book}
-            />}
-            <img className={s.imgCover} onClick={openModalWindow} src={props.book.imageLink} alt={'cover'}/>
-           {/* <button className={s.btn} onClick={openModalWindow}>more info... </button>*/}
-           {/*<h3>{props.book.title}</h3>
-            <span>{props.book.author}</span>*/}
-
+        <div className={s.booksContainer}>
+            <div className={s.bookWrap}>
+                {showModal && <BookDetailModal
+                    showModal={showModal}
+                    setShowModal={setShowModal}
+                    book={props.book}
+                />}
+                <img className={s.imgCover} onClick={openModalWindow} src={props.book.imageLink} alt={'cover'}/>
+            </div>
+            <h3 className={s.bookTitle}>{props.book.title}</h3>
         </div>)
 }
