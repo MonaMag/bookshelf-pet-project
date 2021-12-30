@@ -11,6 +11,7 @@ const Header = () => {
     //const navigate = useNavigate()
     //const isFetching = useSelector<AppStateType, boolean>(state => state.app.isFetching)
     const [searchValue, setSearchValue] = useState<string>('')
+    const [showButton, setShowButton] = useState<boolean>(false)
 
 
     const onSetSearchValue = (e: ChangeEvent<HTMLInputElement>) => {
@@ -21,19 +22,25 @@ const Header = () => {
         e.preventDefault();
         dispatch(searchBookAC(searchValue))
         setSearchValue('')
+        setShowButton(true)
         console.log('send search value')
     }
     const onPressEnter = (e: KeyboardEvent<HTMLDivElement>) => {
         if (e.key === 'Enter') {
             dispatch(searchBookAC(searchValue))
+            setShowButton(true)
         }
+    }
+    const getAllBooksHandler = () => {
+        dispatch(setBooksAC(initState))
+        setShowButton(false)
     }
     console.log("Header")
 
     return (
         <div className={s.header}>
-            <div>
-                <div className={s.backBooks} onClick={() => dispatch(setBooksAC(initState))}>All books</div>
+            <div className={s.backBooksWrap}>
+                {showButton && <div className={s.backBooks} onClick={getAllBooksHandler}>All books</div>}
             </div>
             <div>My bookshelf</div>
             <form className={s.searchForm}>

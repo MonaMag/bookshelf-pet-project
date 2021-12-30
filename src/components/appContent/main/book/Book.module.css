@@ -1,7 +1,7 @@
 .bookWrap {
-    height: 450px;
-    width: 350px;
-    margin-top: 20px;
+    height: 400px;
+    width: 300px;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,8 +9,8 @@
 }
 
 .bookWrap img {
-    height: 400px;
-    width: 300px;
+    height: 350px;
+    width: 250px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgb(109, 101, 91, 0.6);
 }
@@ -19,18 +19,13 @@
     object-fit: cover;
     transition: all 0.3s 0.1s ease-in;
 }
+
 .imgCover:hover {
-    height: 430px;
-    width: 330px;
+    height: 400px;
+    width: 300px;
     box-shadow: 0 3px 7px rgba(71, 66, 66, 0.8);
     cursor: pointer;
 }
-/*.bookWrap img:hover {
-    height: 430px;
-    width: 330px;
-    box-shadow: 0 3px 7px rgba(71, 66, 66, 0.8);
-    cursor: pointer;
-}*/
 
 h3 {
     height: 40px;

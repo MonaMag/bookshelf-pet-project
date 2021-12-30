@@ -12,23 +12,25 @@
     height: 44px;
     padding: 0 0 0 24px;
     z-index: 3;
+    flex-wrap: wrap;
 }
 
-.link {
-    text-decoration: none;
-    color: white;
+.backBooksWrap {
+    width: 70px;
 }
+.backBooks {
+    cursor: pointer;
+}
+.backBooks:hover {
+    color: #f39648;
 
-.link:hover {
-    color: #f5933f;
 }
 
 .searchForm {
     width: 350px;
-    display: flex;
     height: 22px;
+    display: flex;
 }
-
 form.searchForm input {
     outline: none;
     padding: 5px;
@@ -37,37 +39,47 @@ form.searchForm input {
     background: #fdfdfc;
     border: none;
 }
-
 form.searchForm input:focus {
     border: 1px solid #f3923e;
 }
-
 form.searchForm button {
     border: none;
     outline: none;
     background: #f3923e;
     float: left;
-    width: 8%;
+    width: 30px;
     color: white;
     font-size: 17px;
     cursor: pointer;
 }
-
 form.searchForm button:hover {
     background: #d26305;
 }
-
 form.searchForm::after {
     content: "";
     clear: both;
     display: table;
 }
 
-
-.backBooks {
-    cursor: pointer;
+.link {
+    text-decoration: none;
+    color: white;
+}
+.link:hover {
+    color: #f5933f;
 }
 
-.backBooks:hover {
-    color: #f39648;
+@media screen and (max-width: 1000px) {
+    .searchForm {
+        width: 200px;
+    }
+}
+@media screen and (max-width: 540px) {
+    .header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 80px;
+        padding: 0;
+    }
 }
