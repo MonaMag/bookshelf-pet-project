@@ -19,16 +19,16 @@
     align-items: center;
     justify-content: space-evenly;
     background: white;
-    width: 550px;
-    height: 700px;
+    width: 450px;
+    height: 600px;
     border-radius: 5px;
     padding: 20px;
     text-align: center;
 /*    pointer-events: none;*/
 }
 .img {
-    height: 480px;
-    width: 380px;
+    height: 400px;
+    width: 300px;
     border-radius: 10px;
     box-shadow: 0 1px 3px rgba(5, 5, 5, 0.6);
     margin-top: 10px;
@@ -36,4 +36,20 @@
 }
 .title {
    height: 40px;
+}
+
+@media screen and (max-width: 360px) {
+    .modalContent{
+        height: 500px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .img {
+        height: 350px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .title {
+        margin-bottom: 0;
+    }
 }
