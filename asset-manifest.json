@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/bookshelf-pet-project/static/css/main.b1d8f21d.css",
-    "main.js": "/bookshelf-pet-project/static/js/main.d6057c4e.js",
+    "main.css": "/bookshelf-pet-project/static/css/main.0e1905fd.css",
+    "main.js": "/bookshelf-pet-project/static/js/main.a43ba7be.js",
     "static/media/Eclipse200px.gif": "/bookshelf-pet-project/static/media/Eclipse200px.e181d854adc7dd26286a.gif",
     "index.html": "/bookshelf-pet-project/index.html",
-    "main.b1d8f21d.css.map": "/bookshelf-pet-project/static/css/main.b1d8f21d.css.map",
-    "main.d6057c4e.js.map": "/bookshelf-pet-project/static/js/main.d6057c4e.js.map"
+    "main.0e1905fd.css.map": "/bookshelf-pet-project/static/css/main.0e1905fd.css.map",
+    "main.a43ba7be.js.map": "/bookshelf-pet-project/static/js/main.a43ba7be.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1d8f21d.css",
-    "static/js/main.d6057c4e.js"
+    "static/css/main.0e1905fd.css",
+    "static/js/main.a43ba7be.js"
   ]
 }
