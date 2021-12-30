@@ -8,24 +8,20 @@
     justify-content: flex-start;
 }
 
-.bookWrap img {
+.imgCover {
     height: 350px;
     width: 250px;
     border-radius: 10px;
-    box-shadow: 0 2px 5px rgb(109, 101, 91, 0.6);
+    box-shadow: 0 1px 3px rgba(5, 5, 5, 0.6);
     margin-top: 10px;
-}
-
-.imgCover {
     object-fit: cover;
     transition: all 0.3s 0.1s ease-in;
 }
-
 .imgCover:hover {
     height: 370px;
     width: 270px;
-    box-shadow: 0 3px 7px rgba(71, 66, 66, 0.8);
     cursor: pointer;
+    box-shadow: 0 1px 3px rgba(5, 5, 5, 0.6);
 }
 
 .bookTitle {
@@ -43,7 +39,6 @@
     color: #1f89b3;
     background-color: white;
 }
-
 .btn:hover {
     margin-top: 10px;
     color: #135c79;

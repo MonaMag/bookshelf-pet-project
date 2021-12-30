@@ -20,13 +20,20 @@
     justify-content: space-evenly;
     background: white;
     width: 550px;
-    height: 650px;
+    height: 700px;
     border-radius: 5px;
     padding: 20px;
     text-align: center;
 /*    pointer-events: none;*/
 }
-
+.img {
+    height: 480px;
+    width: 380px;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(5, 5, 5, 0.6);
+    margin-top: 10px;
+    object-fit: cover;
+}
 .title {
    height: 40px;
 }
