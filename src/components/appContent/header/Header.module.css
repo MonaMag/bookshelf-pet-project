@@ -23,7 +23,6 @@
 }
 .backBooks:hover {
     color: #f39648;
-
 }
 
 .searchForm {
@@ -35,7 +34,7 @@ form.searchForm input {
     outline: none;
     padding: 5px;
     font-size: 14px;
-    width: 92%;
+    width: 100%;
     background: #fdfdfc;
     border: none;
 }
@@ -49,7 +48,7 @@ form.searchForm button {
     float: left;
     width: 30px;
     color: white;
-    font-size: 17px;
+    font-size: 16px;
     cursor: pointer;
 }
 form.searchForm button:hover {
@@ -72,6 +71,7 @@ form.searchForm::after {
 @media screen and (max-width: 1000px) {
     .searchForm {
         width: 200px;
+        margin: 5px 0;
     }
 }
 @media screen and (max-width: 540px) {
@@ -79,7 +79,13 @@ form.searchForm::after {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 80px;
-        padding: 0;
+        height: 90px;
+        padding: 0 10px 0 0;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .header{
+        padding: 0 10px 0 0;
     }
 }
